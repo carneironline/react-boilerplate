@@ -12,16 +12,6 @@ export default createGlobalStyle`
         min-height:100%;
     }
 
-    body {
-        background: #7159c1;
-    }
-
-    body, input, button {
-        color: #222;
-        font-size:14px;
-        font-family: Arial, Helvetica, sans-serif
-    }
-
     button {
         cursor: pointer;
     }
