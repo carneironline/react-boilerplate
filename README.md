@@ -3,8 +3,6 @@
 Project to start a React application
 <br/>
 
-## `Frontend`
-
 ### Installation
 
 ```bash
