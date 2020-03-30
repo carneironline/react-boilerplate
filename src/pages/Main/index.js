@@ -3,5 +3,6 @@ import React from 'react'
 // import { Title } from './styles'
 
 export default function Main() {
-    return <>RC New Project</>
+    console.log(process.env)
+    return <>{process.env.REACT_APP_TITLE}</>
 }
