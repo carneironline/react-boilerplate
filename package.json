@@ -1,5 +1,7 @@
 {
-  "name": "modulo05",
+  "name": "rc-react-app",
+  "description": "Project to start a React application",
+  "author": "Rodrigo Carneiro",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
