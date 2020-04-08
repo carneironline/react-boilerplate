@@ -45,6 +45,8 @@ module.exports = {
       'jsx-a11y/label-has-associated-control': 'off',
       'react/jsx-props-no-spreading': 'off',
       'react/jsx-boolean-value': 'off',
-      'no-plusplus': 'off'
+      'no-plusplus': 'off',
+      'react/state-in-constructor': 'off',
+      'no-console': ['error', {allow: ['tron']}]
     },
   };

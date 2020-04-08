@@ -12,7 +12,7 @@ export default createGlobalStyle`
     }
 
     html, body, #root {
-        background: #191920 url(${imgBackground}) no-repeat;
+        background: #191920 url(${imgBackground}) no-repeat center top;
         min-height:100%;
     }
 
@@ -21,7 +21,14 @@ export default createGlobalStyle`
         font-size:14px;
     }
 
+    #root {
+        max-width:1020px;
+        margin: 0 auto;
+        padding: 0 20px 50px;
+    }
+
     button {
         cursor: pointer;
     }
+
 `
